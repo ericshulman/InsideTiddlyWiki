@@ -2,14 +2,14 @@
     <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap     = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id            = "com.elsdesign.ITW"
+        id            = "com.elsdesign.TW5"
         versionCode   = "10" 
         version       = "0.1.0" >
 
-    <name>Inside TiddlyWiki</name>
+    <name>TiddlyWiki 5</name>
 
     <description>
-        InsideTiddlyWiki for PhoneGap
+        TiddlyWiki 5 with PhoneGap
     </description>
 
     <author href="http://tiddlywiki.com" email="elsdesign@gmail.com">
