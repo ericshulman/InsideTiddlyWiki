@@ -2,50 +2,44 @@
     <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap     = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id            = "com.elsdesign.TW5"
+        id            = "com.elsdesign.CurbSide"
         versionCode   = "10" 
         version       = "0.1.0" >
 
-    <name>TiddlyWiki 5</name>
+<name>        CurbSide Prototype </name>
+<description> CurbSide with TW5 and PhoneGap </description>
+<author href="http://tiddlytools.com" email="elsdesign@gmail.com">
+    Eric Shulman
+</author>
 
-    <description>
-        TiddlyWiki 5 with PhoneGap
-    </description>
+<gap:platform name="android" />
+<!-- <gap:platform name="ios"> -->
 
-    <author href="http://tiddlywiki.com" email="elsdesign@gmail.com">
-        Eric Shulman
-    </author>
-
-    <gap:platform name="android" />
-<!--
-    <gap:platform name="ios">
-    <gap:platform name="webos" / >
-    <gap:platform name="symbian" />
-    <gap:platform name="blackberry" />
-    <gap:platform name="winphone" />
--->
-
+<icon src="icon.png" />
+<gap:splash src="splash.png" />
 <preference name="orientation"      value="default" /> <!-- portrait, landscape -->
 <preference name="android-location" value="auto"    /> <!-- internalOnly, auto, preferSD -->
 <preference name="fullscreen"       value="true"    />
-
 <supports-screens android:anyDensity="true" android:resizeable="true" 
     android:smallScreens="true" 
     android:normalScreens="true" 
     android:largeScreens="true" 
     android:xlargeScreens="true" />
 
-    <preference name="permissions" value="none"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+<preference name="permissions" value="none"/>
+<feature name="http://api.phonegap.com/1.0/geolocation" />
 <!--
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <feature name="http://api.phonegap.com/1.0/battery"/>
-    <feature name="http://api.phonegap.com/1.0/camera"/>
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
-    <feature name="http://api.phonegap.com/1.0/notification"/>
+<feature name="http://api.phonegap.com/1.0/network" />
+<feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="http://api.phonegap.com/1.0/notification" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<feature name="http://api.phonegap.com/1.0/contacts" />
+<feature name="http://api.phonegap.com/1.0/file" />
+<feature name="http://api.phonegap.com/1.0/battery" />
+<feature name="http://api.phonegap.com/1.0/device" />
 -->
-    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
-    <gap:plugin name="com.kumbe.phonegap.zoom.zoomcontrol" version="0.1.7" />
+
+<gap:plugin name="org.apache.cordova.geolocation" />
+<gap:plugin name="com.kumbe.phonegap.zoom.zoomcontrol" />
+
 </widget>
