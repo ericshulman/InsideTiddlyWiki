@@ -640,7 +640,7 @@ Error message and password prompt
 <div created="20150525051351569" creator="EricShulman" modified="20150525085604720" modifier="EricShulman" title="$:/config/SaverFilter">
 <pre>[all[]] -[[$:/HistoryList]] -[[$:/StoryList]] -[[$:/Import]] -[[$:/isEncrypted]] -[[$:/UploadName]] -[prefix[$:/state]] -[prefix[$:/temp]] -[prefix[$:/config]] -[[TWBook/Info/RevisionHistory]]</pre>
 </div>
-<div created="20150530055529585" creator="EricShulman" modified="20150625180237917" modifier="EricShulman" title="$:/config/twb" type="application/json">
+<div created="20150530055529585" creator="EricShulman" modified="20150627201651481" modifier="EricShulman" title="$:/config/twb" type="application/json">
 <pre>{
     &quot;ReadOnly&quot;: &quot;yes&quot;,
     &quot;Stretch&quot;: &quot;yes&quot;,
@@ -667,7 +667,7 @@ Error message and password prompt
     &quot;TWBook/Info/Funding&quot;: &quot;22:20, 31st May 2015&quot;
 }</pre>
 </div>
-<div created="20150614063430605" creator="EricShulman" modified="20150625180237918" modifier="EricShulman" title="$:/config/twb/TOC" type="application/json">
+<div created="20150614063430605" creator="EricShulman" modified="20150627201651481" modifier="EricShulman" title="$:/config/twb/TOC" type="application/json">
 <pre>{
     &quot;OpenAll&quot;: &quot;no&quot;
 }</pre>
@@ -6640,7 +6640,7 @@ exports.startup = function() {
 <div created="20150211220102231" creator="EricShulman" modified="20150316210458357" modifier="EricShulman" title="$:/SiteTitle">
 <pre>Inside ~TiddlyWiki</pre>
 </div>
-<div modified="20150625180237917" modifier="EricShulman" title="$:/state/sidebar">
+<div modified="20150627201651480" modifier="EricShulman" title="$:/state/sidebar">
 <pre>no</pre>
 </div>
 <div modified="20150608225259576" modifier="EricShulman" title="$:/state/tab--1498284803">
@@ -6649,8 +6649,8 @@ exports.startup = function() {
 <div modified="20150620213654780" modifier="EricShulman" title="$:/state/tab-1347519459">
 <pre>TWBook/Info/PartsList/System</pre>
 </div>
-<div modified="20150625180117696" modifier="EricShulman" title="$:/state/tab-1691732326">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div modified="20150627201411166" modifier="EricShulman" title="$:/state/tab-1691732326">
+<pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
 <div modified="20150604054630029" modifier="EricShulman" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
@@ -6661,7 +6661,7 @@ exports.startup = function() {
 <div list="CoverPage" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20150522165255033" creator="EricShulman" modified="20150625180237917" modifier="EricShulman" title="$:/temp/advancedsearch">
+<div created="20150522165255033" creator="EricShulman" modified="20150627201651479" modifier="EricShulman" title="$:/temp/advancedsearch">
 <pre></pre>
 </div>
 <div modified="20150522225128589" modifier="EricShulman" title="$:/temp/HidePluginWarning">
@@ -6687,10 +6687,10 @@ exports.startup = function() {
 <div modified="20150604060215985" modifier="EricShulman" title="$:/temp/notify">
 <pre>clear favorites cookies...DONE!&lt;br&gt;,,(Refresh window to use defaults),,</pre>
 </div>
-<div created="20150525233822499" creator="EricShulman" modified="20150625180231962" modifier="EricShulman" title="$:/temp/revnote">
-<pre>changed default textures</pre>
+<div created="20150525233822499" creator="EricShulman" modified="20150627201648028" modifier="EricShulman" title="$:/temp/revnote">
+<pre>[[TWBook/NavBar/Macros]] - added nobr in NavBarLink() and NavBarStartHere()</pre>
 </div>
-<div created="20150522222129469" creator="EricShulman" modified="20150625180237916" modifier="EricShulman" title="$:/temp/search">
+<div created="20150522222129469" creator="EricShulman" modified="20150627201651479" modifier="EricShulman" title="$:/temp/search">
 <pre></pre>
 </div>
 <div modified="20150508064658701" modifier="EricShulman" title="$:/theme">
@@ -6810,7 +6810,7 @@ exports.startup = function() {
 <div created="20150509044344374" creator="EricShulman" modified="20150509044345182" modifier="EricShulman" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
 <pre>100%</pre>
 </div>
-<div modified="20150625180237917" modifier="EricShulman" title="$:/view">
+<div modified="20150627201651480" modifier="EricShulman" title="$:/view">
 <pre>zoomin</pre>
 </div>
 <div caption="About the Author" created="20150212080753104" creator="EricShulman" icon="images/eric3.png" modified="20150510093207974" modifier="EricShulman" tags="Preface" title="AboutTheAuthor">
@@ -10773,7 +10773,7 @@ The bottom ~NavBar also displays some &quot;Draft only&quot; content that will b
 &lt;/$list&gt;
 @@</pre>
 </div>
-<div caption="Revision History" created="20150321152616393" creator="EricShulman" modified="20150625180237918" modifier="EricShulman" popup="&lt;$button class=&quot;tc-btn-invisible&quot;&gt;&lt;$action-sendmessage $message=&quot;tm-modal&quot; $param=&quot;TWBook/Info/RevisionHistory&quot;/&gt;  @@.smaller {{TWBook/Info/RevisionHistory!!version}} {{TWBook/Info/RevisionHistory!!timestamp}}@@&lt;/$button&gt;" revision="ITW_V1.alpha" tags="TWBook/Info/Notes" timestamp="15.06.25.110232" title="TWBook/Info/RevisionHistory" type="" version="ITW_V1.alpha">
+<div caption="Revision History" created="20150321152616393" creator="EricShulman" modified="20150627201651481" modifier="EricShulman" popup="&lt;$button class=&quot;tc-btn-invisible&quot;&gt;&lt;$action-sendmessage $message=&quot;tm-modal&quot; $param=&quot;TWBook/Info/RevisionHistory&quot;/&gt;  @@.smaller {{TWBook/Info/RevisionHistory!!version}} {{TWBook/Info/RevisionHistory!!timestamp}}@@&lt;/$button&gt;" revision="ITW_V1.alpha" tags="TWBook/Info/Notes" timestamp="15.06.27.131648" title="TWBook/Info/RevisionHistory" type="" version="ITW_V1.alpha">
 <pre>Current build: ''{{!!version}}'' @@.smaller {{!!timestamp}}@@
 
 * 15.03.21 Initial release for feedback
@@ -10866,7 +10866,8 @@ The bottom ~NavBar also displays some &quot;Draft only&quot; content that will b
 * 15.06.20.225819 eliminate use of &quot;vw&quot; in CSS
 * 15.06.20.230652 eliminate vh from LeftBar/StyleSheet
 * 15.06.25.104524 new background texture (nicesnow.png)
-* 15.06.25.110232 changed default textures</pre>
+* 15.06.25.110232 changed default textures
+* 15.06.27.131648 [[TWBook/NavBar/Macros]] - added nobr in NavBarLink() and NavBarStartHere()</pre>
 </div>
 <div created="20150421001520159" creator="EricShulman" modified="20150530061852923" modifier="EricShulman" tags="$:/tags/PageTemplate" title="TWBook/LeftBar">
 <pre>&lt;$reveal type=&quot;nomatch&quot; text=&quot;no&quot; state=&quot;$:/config/twb##LeftBar&quot; retain=&quot;no&quot;&gt;
@@ -11045,12 +11046,12 @@ The bottom ~NavBar also displays some &quot;Draft only&quot; content that will b
 <pre>{{TWBook/Info/DraftNotice}}&lt;br&gt;
 {{TWBook/Info/RevisionHistory!!popup}}</pre>
 </div>
-<div created="20150405080824318" creator="EricShulman" modified="20150614214213279" modifier="EricShulman" tags="$:/tags/Macro" title="TWBook/NavBar/Macros" type="">
+<div created="20150405080824318" creator="EricShulman" modified="20150627201546737" modifier="EricShulman" tags="$:/tags/Macro" title="TWBook/NavBar/Macros" type="">
 <pre>\define NavBarLink(pos)
 &lt;$list filter=&quot;[all[current]!title{TWBook/RootTag}]&quot;
    emptyMessage=&quot;&lt;$tiddler tiddler={{$:/DefaultTiddlers}}&gt;&lt;&lt;NavBarLink $pos$&gt;&gt;&lt;/$tiddler&gt;&quot;&gt;
    &lt;span class=&quot;twb-navbar-link&quot; style=&quot;float:$pos$;&quot;&gt;
-   &lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;
+   &lt;nobr&gt;&lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;&lt;/nobr&gt;
    &lt;/span&gt;
 &lt;/$list&gt;
 \end
@@ -11090,7 +11091,7 @@ The bottom ~NavBar also displays some &quot;Draft only&quot; content that will b
 &lt;div style=&quot;clear:left&quot;&gt;,,//or, select any topic below://,,&lt;/div&gt;
 &lt;ul&gt;
 &lt;$list filter=&quot;[tag{!!title}rest[]]&quot;&gt;
-   &lt;li&gt;&lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;nobr&gt;&lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;&lt;/nobr&gt;&lt;/li&gt;
 &lt;/$list&gt;
 &lt;/ul&gt;
 \end
